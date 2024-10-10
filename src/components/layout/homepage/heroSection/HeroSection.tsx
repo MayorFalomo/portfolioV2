@@ -217,7 +217,7 @@ const Staggered = ({ text, inview }: IProp) => {
       variants={mobileLinkVars}
       initial="initial"
       animate={inview ? "open" : "initial"}
-      className="scroll-m-20 font-TenorSans min-[1700px]:text-[80px] min-[900px]:text-[50px] max-[900px]:text-[40px] font-medium tracking-tight leading-[85px] min-[1800px]:leading-[90px] min-[1500px]:text-[60px] max-[700px]:text-center max-[700px]:mx-auto  max-[700px]:w-full"
+      className="scroll-m-20 font-TenorSans min-[1700px]:text-[80px] min-[900px]:text-[50px] max-[900px]:text-[40px] font-medium tracking-tight leading-[70px] min-[1800px]:leading-[90px] min-[1500px]:text-[60px] max-[700px]:text-center max-[700px]:mx-auto  max-[700px]:w-full"
     >
       {text}
     </motion.h1>
